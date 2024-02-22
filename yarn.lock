@@ -19,7 +19,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.23.7":
+"@babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.23.7":
   version: 7.23.9
   resolution: "@babel/runtime@npm:7.23.9"
   dependencies:
@@ -283,6 +283,77 @@ __metadata:
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
   checksum: 9e828530eb8d3e5370972114de393d9f9cfd368f8a7b541fd0d4497c2f046245e907e05f4e07259bdf91ade8f7a0806f36a67099fbf20f62496dc00b843e2252
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-compose-refs@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@radix-ui/react-compose-refs@npm:1.0.1"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 1651591909d3379f8f2aa6de240ca819499e3917fd90d1774d647c338e2bcf75afcf6ef06fe53d877a88d0f00737f30183081bec0fcd1d5f30379e71705846f6
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-label@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "@radix-ui/react-label@npm:2.0.2"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-primitive": "npm:1.0.3"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: f79d55fcef81e2273fee8a65d2f717e3bd79939aa75ec26f36c3b8a426e480c71a91bffe5fcd774aaaf085b8d32443c1f86937cfc3f5574ced8b084315f8458b
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-primitive@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@radix-ui/react-primitive@npm:1.0.3"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-slot": "npm:1.0.2"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 77c888914ac5c45d01832fddcb732d3d9e7fafd92930c6c493cfd139a60d107d6de22ac354df4170859a5faf1f7a319fef66f39b88485de8e8fd062ddc6d99e8
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-slot@npm:1.0.2, @radix-ui/react-slot@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@radix-ui/react-slot@npm:1.0.2"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-compose-refs": "npm:1.0.1"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: f171c37feb8f668d7a9c0f94f0e9b2b2771b4828247378c627c8177b82308dbb0d038c6a0c550acefd30b2d058d846a4b476d684c14d060f0efada152745c88e
   languageName: node
   linkType: hard
 
@@ -977,6 +1048,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "dapp-presidency-voter@workspace:."
   dependencies:
+    "@radix-ui/react-label": "npm:^2.0.2"
+    "@radix-ui/react-slot": "npm:^1.0.2"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
@@ -1414,11 +1487,11 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-react-hooks@npm:^4.5.0 || 5.0.0-canary-7118f5dd7-20230705":
-  version: 5.0.0-canary-7118f5dd7-20230705
-  resolution: "eslint-plugin-react-hooks@npm:5.0.0-canary-7118f5dd7-20230705"
+  version: 4.6.0
+  resolution: "eslint-plugin-react-hooks@npm:4.6.0"
   peerDependencies:
     eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
-  checksum: bd3c2226cac27db8393d0b006299fac60e943e61ed46a5ff85571dc77ab863903547a71badddf82c6009c3c82a4b92e38ed3e874ba6f4d7f1d8c4b9347563106
+  checksum: 7a7df60fd4f2d39bc4b7baaeb0868382454e38d7fe631a0f71c8e6241ca57a1ec258cfef4b05d3cda72c20e5e8d33afebe4dafa9a8a112f05cd5c006091fb083
   languageName: node
   linkType: hard
 
@@ -2666,17 +2739,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ms@npm:2.1.2":
+"ms@npm:2.1.2, ms@npm:^2.1.1":
   version: 2.1.2
   resolution: "ms@npm:2.1.2"
   checksum: 3f46af60a08158f1c77746c06c2f6c7aba7feddafd41335f9baa2d7e0741d7539774aa7d5d1661a7f2b7eed55a7063771297eea016051924dbb04d4c2bf40bcb
-  languageName: node
-  linkType: hard
-
-"ms@npm:^2.1.1":
-  version: 2.1.3
-  resolution: "ms@npm:2.1.3"
-  checksum: 78c12f6b473a022ebacc393fc14b76fe40b8feda7218124b86c4684e440e10377a063bec1d3902df1f74714f02b74b36ad7d3a6de9e2fbffa26fc29e5ce018fc
   languageName: node
   linkType: hard
 
