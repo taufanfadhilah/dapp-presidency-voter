@@ -30,13 +30,18 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.2.57"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["autoprefixer", "virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:10.4.17"],\
+          ["class-variance-authority", "npm:0.7.0"],\
+          ["clsx", "npm:2.1.0"],\
           ["eslint", "npm:8.56.0"],\
           ["eslint-config-next", "virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:14.1.0"],\
+          ["lucide-react", "virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:0.336.0"],\
           ["next", "virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:14.1.0"],\
           ["postcss", "npm:8.4.35"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:18.2.0"],\
+          ["tailwind-merge", "npm:2.2.1"],\
           ["tailwindcss", "npm:3.4.1"],\
+          ["tailwindcss-animate", "virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:1.0.7"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=77c9e2"]\
         ],\
         "linkType": "SOFT"\
@@ -1095,6 +1100,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["class-variance-authority", [\
+      ["npm:0.7.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/class-variance-authority-npm-0.7.0-1a63840197-9.zip/node_modules/class-variance-authority/",\
+        "packageDependencies": [\
+          ["class-variance-authority", "npm:0.7.0"],\
+          ["clsx", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["clean-stack", [\
       ["npm:2.2.0", {\
         "packageLocation": "../../../.yarn/berry/cache/clean-stack-npm-2.2.0-a8ce435a5c-9.zip/node_modules/clean-stack/",\
@@ -1109,6 +1124,22 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/client-only-npm-0.0.1-07d3e9505c-9.zip/node_modules/client-only/",\
         "packageDependencies": [\
           ["client-only", "npm:0.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["clsx", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/clsx-npm-2.0.0-afafbbe44a-9.zip/node_modules/clsx/",\
+        "packageDependencies": [\
+          ["clsx", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.1.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/clsx-npm-2.1.0-29d286e1de-9.zip/node_modules/clsx/",\
+        "packageDependencies": [\
+          ["clsx", "npm:2.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1198,13 +1229,18 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.2.57"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["autoprefixer", "virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:10.4.17"],\
+          ["class-variance-authority", "npm:0.7.0"],\
+          ["clsx", "npm:2.1.0"],\
           ["eslint", "npm:8.56.0"],\
           ["eslint-config-next", "virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:14.1.0"],\
+          ["lucide-react", "virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:0.336.0"],\
           ["next", "virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:14.1.0"],\
           ["postcss", "npm:8.4.35"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:18.2.0"],\
+          ["tailwind-merge", "npm:2.2.1"],\
           ["tailwindcss", "npm:3.4.1"],\
+          ["tailwindcss-animate", "virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:1.0.7"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=77c9e2"]\
         ],\
         "linkType": "SOFT"\
@@ -3040,6 +3076,28 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["lucide-react", [\
+      ["npm:0.336.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/lucide-react-npm-0.336.0-423d95bba5-9.zip/node_modules/lucide-react/",\
+        "packageDependencies": [\
+          ["lucide-react", "npm:0.336.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:0.336.0", {\
+        "packageLocation": "./.yarn/__virtual__/lucide-react-virtual-8b6770eb25/4/.yarn/berry/cache/lucide-react-npm-0.336.0-423d95bba5-9.zip/node_modules/lucide-react/",\
+        "packageDependencies": [\
+          ["lucide-react", "virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:0.336.0"],\
+          ["@types/react", "npm:18.2.57"],\
+          ["react", "npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["make-fetch-happen", [\
       ["npm:13.0.0", {\
         "packageLocation": "../../../.yarn/berry/cache/make-fetch-happen-npm-13.0.0-f87a92bb87-9.zip/node_modules/make-fetch-happen/",\
@@ -4406,6 +4464,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["tailwind-merge", [\
+      ["npm:2.2.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/tailwind-merge-npm-2.2.1-8dc1f0b72b-9.zip/node_modules/tailwind-merge/",\
+        "packageDependencies": [\
+          ["tailwind-merge", "npm:2.2.1"],\
+          ["@babel/runtime", "npm:7.23.9"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["tailwindcss", [\
       ["npm:3.4.1", {\
         "packageLocation": "../../../.yarn/berry/cache/tailwindcss-npm-3.4.1-3903e2abcc-9.zip/node_modules/tailwindcss/",\
@@ -4433,6 +4501,28 @@ const RAW_RUNTIME_STATE =
           ["postcss-selector-parser", "npm:6.0.15"],\
           ["resolve", "patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"],\
           ["sucrase", "npm:3.35.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tailwindcss-animate", [\
+      ["npm:1.0.7", {\
+        "packageLocation": "../../../.yarn/berry/cache/tailwindcss-animate-npm-1.0.7-0ee9776556-9.zip/node_modules/tailwindcss-animate/",\
+        "packageDependencies": [\
+          ["tailwindcss-animate", "npm:1.0.7"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:1.0.7", {\
+        "packageLocation": "./.yarn/__virtual__/tailwindcss-animate-virtual-ed57952898/4/.yarn/berry/cache/tailwindcss-animate-npm-1.0.7-0ee9776556-9.zip/node_modules/tailwindcss-animate/",\
+        "packageDependencies": [\
+          ["tailwindcss-animate", "virtual:8cb16faa7cd286b3a87a980167d330d5caaf0a9dc4236de600e0ef9ae5a37eac9ff63e1563198fbc73d537bfc8ef688fbb138de974722c29eeaffba1e2a335f1#npm:1.0.7"],\
+          ["@types/tailwindcss", null],\
+          ["tailwindcss", "npm:3.4.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/tailwindcss",\
+          "tailwindcss"\
         ],\
         "linkType": "HARD"\
       }]\
