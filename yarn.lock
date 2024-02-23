@@ -151,6 +151,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lottiefiles/react-lottie-player@npm:^3.5.3":
+  version: 3.5.3
+  resolution: "@lottiefiles/react-lottie-player@npm:3.5.3"
+  dependencies:
+    lottie-web: "npm:^5.10.2"
+  peerDependencies:
+    react: 16 - 18
+  checksum: 98602d0275e461a78ec248ec8b527dba249649c4413049796915f2b1e55964e55ba91768783d685b69bf433387d6562e89be1441fcb75873f7e6e548984df0c6
+  languageName: node
+  linkType: hard
+
 "@next/env@npm:14.1.0":
   version: 14.1.0
   resolution: "@next/env@npm:14.1.0"
@@ -1048,6 +1059,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "dapp-presidency-voter@workspace:."
   dependencies:
+    "@lottiefiles/react-lottie-player": "npm:^3.5.3"
     "@radix-ui/react-label": "npm:^2.0.2"
     "@radix-ui/react-slot": "npm:^1.0.2"
     "@types/node": "npm:^20"
@@ -2557,6 +2569,13 @@ __metadata:
   bin:
     loose-envify: cli.js
   checksum: 39c5fc44c6a8f7f8a92cccf174554fbb307477ef493760407920fdd4ed5f6cc1aec5b6a5ab3c3767ef79547b3e1aea09d8ca08d773232c662d910cfe473a0590
+  languageName: node
+  linkType: hard
+
+"lottie-web@npm:^5.10.2":
+  version: 5.12.2
+  resolution: "lottie-web@npm:5.12.2"
+  checksum: 6651c656263f89d4703497fc8242f5dc89dfb60e8eec668fed856c7680ea814cec9c59fe799edaec08925cd8ada73b3cf79923b508e1613d49b0e81207bc9e08
   languageName: node
   linkType: hard
 

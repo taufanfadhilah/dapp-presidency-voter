@@ -11,10 +11,7 @@ export default function Home() {
           <div className="relative z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                reiciendis cumque beatae neque? Dolorem pariatur deleniti qui
-                ullam dolor asperiores nulla, corporis ex alias sunt laborum
-                maxime vero? Pariatur, exercitationem?
+                Empowerment Through Voting: Your President, Your Decision
               </p>
               <footer className="text-sm">
                 Made with ❤️ by{" "}

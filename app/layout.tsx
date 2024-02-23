@@ -8,8 +8,9 @@ const font = Noto_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "🇮🇩 Presidency Voter 2024",
-  description: "Vote your president for better 🇮🇩",
+  title:
+    "🇮🇩 Presidency Voter 2024 | Empowerment Through Voting: Your President, Your Decision",
+  description: "Empowerment Through Voting: Your President, Your Decision 🇮🇩",
 };
 
 export default function RootLayout({
